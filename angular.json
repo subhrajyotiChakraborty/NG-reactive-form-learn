@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-reactive-form-learn"
+    }
+  },
+  "defaultProject": "angular-reactive-form-learn",
+  "cli": {
+    "analytics": "5a016c9d-ec86-4607-bbdd-749652819c91"
+  }
 }
