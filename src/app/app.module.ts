@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { DataEntryComponent } from './components/data-entry/data-entry.component';
 import { DashBoardComponent } from './components/dash-board/dash-board.component';
 import { DataTransferService } from './data-transfer.service';
+import { PreFixerPipe } from './pre-fixer.pipe';
+import { ColorItDirective } from './color-it.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataEntryComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    PreFixerPipe,
+    ColorItDirective
   ],
   imports: [
     BrowserModule,
