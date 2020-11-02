@@ -12,6 +12,10 @@ const routes: Routes = [
     loadChildren: () => import('./components/dash-board/dash-board.module').then(m => m.DashBoardModule)
   },
   {
+    path: 'counter',
+    loadChildren: () => import('./components/counter/counter-routing.module').then(m => m.CounterRoutingModule)
+  },
+  {
     path: '',
     redirectTo: '',
     pathMatch: 'full'
